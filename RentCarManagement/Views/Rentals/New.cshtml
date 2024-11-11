@@ -1,0 +1,39 @@
+﻿@model Rental
+@{
+    ViewData["Title"] = "New";
+}
+
+<h1>New</h1>
+<form method="post" action="/rentals/SaveNEw">
+    
+    <div>
+        <label>CarId</label>
+        <input type="number" name="CarId" class="form-control" value="@Model.CarId"/>
+    </div>
+
+    <div>
+        <label>StartDate</label>
+        <input type="text" name="StartDate" class="form-control" value="@Model.StartDate" />
+    </div>
+
+    <div>
+        <label>EndDate</label>
+        <input type="text" name="EndDate" class="form-control" value="@Model.EndDate"/>
+    </div>
+
+    <div>
+        <label>TotalPrice</label>
+        <input type="number" name="TotalPrice" class="form-control" value="@Model.TotalPrice"/>
+    </div>
+
+    <div>
+        <label>Car</label>
+        <input type="text" name="Car" class="form-control" value="@Model.Car" />
+    </div>
+
+    <input type="submit" value="Add" class="btn btn-success"/>
+
+</form>
+
+<a href="/Rentals/index">Back</a>
+

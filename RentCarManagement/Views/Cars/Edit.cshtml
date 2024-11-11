@@ -1,0 +1,56 @@
+﻿@model Car
+@{
+    ViewData["Title"] = "Edit";
+
+
+}
+
+<h1>Edit</h1>
+
+<form method="post" action="/cars/saveEdit/@Model.Id">
+    <div>
+        <label>Brand</label>
+        <input type="text" name="Brand" id="Brand" value="@Model.Brand" class="form form-control" />
+    </div>
+
+    <div>
+        <label>Model</label>
+        <input type="text" name="Model" id="Model" value="@Model.Model" class="form form-control" />
+    </div>
+
+    <div>
+        <label>DailyRate</label>
+        <input type="number" name="DailyRate" id="DailyRate" value="@Model.DailyRate" class="form form-control"/>
+    </div>
+
+    <div>
+        <label>isavailable</label>
+        <input type="text" name="isavailable" id="isavailable" value="@Model.IsAvailable" class="form form-control"/>
+    </div>
+
+       
+        
+    <div>
+        <label>Rent_Id</label>
+    <select name="Rent_Id" id="Rent_Id" class="form form-control">
+        @foreach (Rental rentItem in ViewBag.rentList)
+        {
+                if (Model.Rent_Id == rentItem.Id)
+                {
+
+                    <option value="@rentItem.Id" selected >@rentItem.CarId</option>
+
+                }
+                else
+                {
+
+                    <option value="@rentItem.Id"  >@rentItem.CarId</option>
+
+                }
+        }
+</select>
+    </div>
+    <input type="submit" value="save" />
+
+
+</form>

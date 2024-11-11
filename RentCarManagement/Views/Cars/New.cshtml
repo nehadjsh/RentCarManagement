@@ -1,0 +1,54 @@
+﻿@model Car
+@{
+    ViewData["Title"] = "NEw";
+    SelectList rentlist = new SelectList(ViewBag.CarDropDownList, "Id" , "Id"); // cast list<rent> to IEnum selectlist
+}
+
+<h1>NEw</h1>
+
+<form asp-action="SaveNew" asp-controller="Cars">
+    <div  asp-validation-summary="All"></div>
+
+    <div>
+        <label asp-for="Brand"></label>
+        <input class="form-control" asp-for="Brand" />
+        <span asp-validation-for="Brand" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Model"></label>
+        <input class="form-control" asp-for="Model" />
+        <span asp-validation-for="Model" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="DailyRate"></label>
+        <input class="form-control" asp-for="DailyRate" />
+        <span asp-validation-for="DailyRate" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="IsAvailable"></label>
+        <input class="form-control" asp-for="IsAvailable" />
+        <span asp-validation-for="IsAvailable" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Rent_Id"></label>
+        @* <input class="form-control" asp-for="Rent_Id"/> *@
+        <select class="form-control" asp-for="Rent_Id" asp-items="rentlist">
+            
+        </select>
+        <span asp-validation-for="Rent_Id" class="text-danger"></span>
+    </div>
+
+    
+    <input type="submit" value="Add" class="btn btn-success" />
+</form>
+
+
+@section Scripts{
+    @*@<script src="~/lib/jquery/dist/jquery.js">*@
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js">
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
