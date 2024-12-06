@@ -1,20 +1,16 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction to Rent Car Management System:
+This project is a Rent Car Management System built in C#, designed to help car rental businesses manage customers, vehicles, bookings, rentals, and reports efficiently.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Notes:
+This system was developed as a learning project to explore and apply DevOps concepts and practices. It is designed for anyone interested in learning DevOps through hands-on experience.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Please note that the project may contain errors or areas where best practices have not been fully applied. As mentioned earlier, the focus was on education and development, so only the minimum viable features have been implemented. If time permits, additional features and improvements will be added.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+We welcome feedback and contributions from the community to enhance the project further.
+
+
+
+[Implementing Agile and Portfolio Management with Azure Boards](https://github.com/nehadjsh/Implementing-Agile-and-Portfolio-Management-with-Azure-Boards/issues/1)
+
+ [How do you upload a local project to a remote repository on GitHub?!](https://github.com/nehadjsh/RentCarManagement/issues/1#issue-2723844742)
