@@ -14,3 +14,7 @@ We welcome feedback and contributions from the community to enhance the project 
 [Implementing Agile and Portfolio Management with Azure Boards](https://github.com/nehadjsh/Implementing-Agile-and-Portfolio-Management-with-Azure-Boards/issues/1)
 
  [How do you upload a local project to a remote repository on GitHub?!](https://github.com/nehadjsh/RentCarManagement/issues/1#issue-2723844742)
+
+ [Deploy Web App by CI/CD Pipeline with Azure DevOps](https://github.com/nehadjsh/RentCarManagement/issues/2)
+
+
