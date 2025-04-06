@@ -22,3 +22,4 @@ We welcome feedback and contributions from the community to enhance the project 
  [Deploy a Web app using Terraform and Azure Pipeline](https://github.com/nehadjsh/deploy-webapp-terraform-azure-pipeline/issues/1#issue-2771564948)
 
 
+[Automating Kubernetes Deployments with Azure DevOps and Docker](https://github.com/nehadjsh/RentCarManagement/issues/3#issue-2974711377)
