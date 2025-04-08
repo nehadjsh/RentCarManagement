@@ -23,3 +23,5 @@ We welcome feedback and contributions from the community to enhance the project 
 
 
 [Automating Kubernetes Deployments with Azure DevOps and Docker](https://github.com/nehadjsh/RentCarManagement/issues/3#issue-2974711377)
+
+[DevOps Automation Script with Bash](https://github.com/nehadjsh/DevOps-Bash-Automation)
